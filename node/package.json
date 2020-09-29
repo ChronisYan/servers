@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "mongodb": "^3.6.2"
+  },
+  "name": "servers-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/ChronisYan/servers",
+  "author": "chronisyan",
+  "license": "MIT"
+}
