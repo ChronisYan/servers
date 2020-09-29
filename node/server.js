@@ -29,8 +29,7 @@ MongoClient.connect(
     if (err) return console.log("Unable to connect to the Database");
 
     // load quotes
-    quotes = client.db(DB_NAME).collection("quotes");
-    // load top quote
+    quotes = client.db(DB_NAME).collection("posts");
 
     app.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);
