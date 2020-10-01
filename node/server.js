@@ -86,7 +86,7 @@ MongoClient.connect(
       nPosts = count;
     });
     app.listen(PORT, () => {
-      console.log(`Server running on port ${PORT}`);
+      console.log(`Server up running on port ${PORT}`);
     });
   }
 );
